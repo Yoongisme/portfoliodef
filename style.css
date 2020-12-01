@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  width:100%;
+}
+
+li {
+  float: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+}
+
+.formation {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.progress-bar{
+  background-color: green !important ;
+}
+
+.boutonProjet{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-size: 1.5em;
+  margin: 15px 5px;
+}
+
+.boutonProjet:hover{
+  background-color: orange;
+  text-decoration: none;
+}
